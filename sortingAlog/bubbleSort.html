@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="styleSheet" href="../assets/css/bubbleSort.css" />
+        <title>Bubble Sort</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background-color: black;
+            }
+
+            .sorting {
+                width: auto;
+                height: 80vh;
+                background-color: rgb(15, 14, 14);
+                padding: 20px;
+               display: flex;
+               justify-content: center;
+               align-items: flex-end;
+            }
+
+            .block {
+                height: 1pc;
+                width: 2.5pc;
+                margin: 3px;
+                float: left;
+                background-color: white;
+                font-weight: bold;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="sorting">
+        </div>
+        <div class="operations" align="center">
+            <button class="random">Random Array</button>
+            <button class="sort">Sort</button>
+            <button class="Largest">Kth Largest</button>
+            <!-- <button class="travers">Travers</button> -->
+            <span class="speedText"> Speed :</span> <input type="range" class="speed" step="1" min="1" max="5"
+                value="1">
+        </div>
+        <script rel="text/javascript" src="../assets/js/bubbleSort.js"></script>
+    </body>
+
+</html>
