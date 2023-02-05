@@ -44,6 +44,11 @@ body{
     margin-right: 20px;
     color: black;
     font-weight: 900;
+    transition: 0.3s;
+    position: relative;
+}
+#navbar li a:hover{
+    color: grey;
 }
 #content {
     display: flex;
