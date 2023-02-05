@@ -59,6 +59,11 @@ body{
     margin-bottom: 20px;
     border-radius: 10px;
     cursor: pointer;
+    transition: 0.8s;
+}
+.card:hover{
+    background-color: whitesmoke;
+    box-shadow: 10px 30px 50px rgba(0, 0, 0, 0.3);
 }
 .card .image img{
     width: 100%;
