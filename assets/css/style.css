@@ -3,7 +3,9 @@
     position: relative;
     display: inline-block;
   }
-  
+  .index {
+    margin-bottom: 10px;
+}
   .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
